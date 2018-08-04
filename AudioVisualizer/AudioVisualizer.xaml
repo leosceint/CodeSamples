@@ -1,0 +1,28 @@
+//Code sample: Sound visualizer using WPF and Core Audio API. 
+//Author: MSDN-WhiteKnight (https://github.com/MSDN-WhiteKnight)
+//License: BSD 3-clause
+
+//*Main window markup*
+
+<Window x:Class="WpfApplication1.MainWindow"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            Title="Audio player" Height="350" Width="620.522">
+        <Grid Margin="0,0,3.4,63.4">
+            <MediaElement x:Name="media1" HorizontalAlignment="Left" Height="148" Margin="325,29,0,0" 
+                          VerticalAlignment="Top" Width="240" 
+                          Source="" 
+                          LoadedBehavior="Manual"/>
+            <Button x:Name="bOpen" Content="Open" HorizontalAlignment="Left" Height="55" 
+                    Margin="22,190,0,0" VerticalAlignment="Top" Width="70" Click="bOpen_Click"/>
+            <Button x:Name="bPlay" Content="Play" HorizontalAlignment="Left" Height="55" 
+                    Margin="120,190,0,0" VerticalAlignment="Top" Width="70" Click="Button_Click_1"/>
+            <Button x:Name="bStop" Content="Stop" HorizontalAlignment="Left" Height="55" Margin="212,190,0,0"
+                    VerticalAlignment="Top" Width="70" Click="bStop_Click"/>
+            <Grid HorizontalAlignment="Left" Height="157" Margin="20,20,0,0" VerticalAlignment="Top" Width="286">
+                <Ellipse x:Name="ellVisualizer" Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="50" 
+                          Stroke="Black" VerticalAlignment="Center" Width="256"/>
+            </Grid>        
+    
+        </Grid>
+</Window>
