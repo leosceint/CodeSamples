@@ -30,7 +30,7 @@ using System.Windows.Media;
 using System.Windows.Media.Media3D;
 using System.Windows.Media.Imaging;
 
-namespace WindowsFormsTest
+namespace HelperClasses
 {
     public class ImageTransformer
     {
@@ -39,9 +39,6 @@ namespace WindowsFormsTest
         {
             Viewport3D myViewport3D;
             BitmapImage image = new BitmapImage(new Uri(input));
-
-            /*matr.OffsetX /= (double)image.PixelWidth;
-            matr.OffsetY /= (double)image.PixelHeight;*/
 
             // Declare scene objects.
             myViewport3D = new Viewport3D();
