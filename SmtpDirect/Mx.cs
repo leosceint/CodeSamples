@@ -1,3 +1,4 @@
+//Source:  https://social.msdn.microsoft.com/Forums/vstudio/en-US/89b21138-596f-4efc-8e86-d440d260c41e/how-to-find-smtp-mail-server-name-and-port?forum=csharpgeneral
 using System;
 using System.Collections;
 using System.Text;
