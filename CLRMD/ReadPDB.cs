@@ -1,5 +1,5 @@
 // *** Example: Reading PDB file and obtaining method's source line numbers via CLRMD ***
-// Requres Microsoft.Diagnostics.Runtime (https://www.nuget.org/packages/Microsoft.Diagnostics.Runtime/)
+// Requires Microsoft.Diagnostics.Runtime (https://www.nuget.org/packages/Microsoft.Diagnostics.Runtime/)
 //
 // Author: MSDN-WhiteKnight (https://github.com/MSDN-WhiteKnight)
 
