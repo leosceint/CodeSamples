@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Sample: displaying contents of Windows Shell special folders (such as My Computer, Control Panel etc.) in WPF WebBrowser
+// *** P/Invoke & COM Interop decarations ***
+//Copyright (c) 2019, MSDN.WhiteKnight
+
+using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text;
