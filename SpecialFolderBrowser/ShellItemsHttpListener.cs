@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Sample: displaying contents of Windows Shell special folders (such as My Computer, Control Panel etc.) in WPF WebBrowser
+// *** Helper web server class (HttpListener wrapper) ***
+//Copyright (c) 2019, MSDN.WhiteKnight
+
+using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Text;
