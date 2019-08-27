@@ -1,4 +1,9 @@
-﻿//https://devblogs.microsoft.com/oldnewthing/?p=9773
+﻿//Sample: displaying contents of Windows Shell special folders (such as My Computer, Control Panel etc.) in WPF WebBrowser
+// *** Main Window Codebehind ***
+//Copyright (c) 2019, MSDN.WhiteKnight
+//(Requires reference to System.Drawing)
+//Based on: https://devblogs.microsoft.com/oldnewthing/?p=9773
+
 using System;
 using System.IO;
 using System.Collections.Generic;
