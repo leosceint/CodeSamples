@@ -1,4 +1,5 @@
-# CodeSamples
+# Копия репозитория CodeSamples
+
 Various C# code samples
 
 ## Windows Forms
